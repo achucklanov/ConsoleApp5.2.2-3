@@ -69,7 +69,7 @@
                 favcolors[i] = ShowColor(name, age);
             }
 
-            ShowColors(favcolors[0], favcolors[2]);
+            ShowColors(favcolors[0], favcolors[2]);   // вывод первого и третьего элементов массива цветов
 
 
             //Console.WriteLine("Ваши любимые цвета:");
