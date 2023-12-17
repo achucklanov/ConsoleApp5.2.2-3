@@ -66,7 +66,7 @@
                 Console.WriteLine(color);
 
             }
-            Console.WriteLine("Первый и последний элемент массива ваших любимые цветов:");
+            Console.WriteLine("Первый и последний элемент массива ваших любимых цветов:");
 
             Console.WriteLine(favcolors[0]);
             Console.WriteLine(favcolors[2]);
