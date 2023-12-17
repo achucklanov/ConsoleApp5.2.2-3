@@ -37,6 +37,15 @@
             }
             return color;
         }
+        static void ShowColors(params string[] favcolors)
+        {
+            Console.WriteLine("Ваши любимые цвета:");
+            foreach (var color in favcolors)
+            {
+                Console.WriteLine(color);
+            }
+        }
+
 
         static void Main(string[] args)
         {
@@ -60,16 +69,20 @@
                 favcolors[i] = ShowColor(name, age);
             }
 
-            Console.WriteLine("Ваши любимые цвета:");
-            foreach (var color in favcolors)
-            {
-                Console.WriteLine(color);
+            ShowColors(favcolors[0], favcolors[2]);
 
-            }
-            Console.WriteLine("Первый и последний элемент массива ваших любимых цветов:");
 
-            Console.WriteLine(favcolors[0]);
-            Console.WriteLine(favcolors[2]);
+            //Console.WriteLine("Ваши любимые цвета:");
+           // foreach (var color in favcolors)
+           //{
+           //     Console.WriteLine(color);
+
+           // }
+            //Console.WriteLine("Первый и последний элемент массива ваших любимы цветов:");
+            //Console.WriteLine(favcolors[0]);
+            //Console.WriteLine(favcolors[2]);
+
+
 
             Console.ReadKey();
 
