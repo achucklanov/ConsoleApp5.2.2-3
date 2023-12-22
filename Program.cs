@@ -49,6 +49,8 @@
 
         static void Main(string[] args)
         {
+            Console.WriteLine("Здравствуй, Мир!");
+
             var (name, age) = ("Евгения", 27);
 
             Console.WriteLine("Моё имя: {0}", name);
