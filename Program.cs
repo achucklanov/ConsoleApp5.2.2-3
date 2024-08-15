@@ -58,7 +58,7 @@
 
             Console.Write("Введите имя: ");
             name = Console.ReadLine();
-            Console.Write("Введите возраст с цифрами:");
+            Console.Write("Введите возраст числом :");
             age = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("Ваше имя: {0}", name);
