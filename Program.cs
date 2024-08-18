@@ -4,7 +4,8 @@
     {
         static string ShowColor(string name, int age)
         {
-            Console.WriteLine("{0}, {1}\n Напишите свой любимый цвет на английском с маленькой буквы", name, age);
+            //Console.WriteLine("{0}, {1}\n Напишите свой любимый цвет на английском с маленькой буквы", name, age);
+            Console.WriteLine("{0}, {1}" + Environment.NewLine +"Напишите свой любимый цвет на английском с маленькой буквы", name, age);
             var color = Console.ReadLine();
 
             switch (color)
